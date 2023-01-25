@@ -42,3 +42,17 @@ Stack trace:
 #9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
 #10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
 #11 {main}
+INFO - 2023-01-25 07:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 07:58:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 07:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 07:58:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 07:58:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 07:58:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 08:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 08:00:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 08:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 08:01:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 08:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 08:01:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2023-01-25 08:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2023-01-25 08:01:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
