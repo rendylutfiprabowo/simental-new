@@ -1,0 +1,44 @@
+ERROR - 2023-01-25 00:00:02 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-235353_CreateTableAgen.php(43): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableAgen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-25 00:05:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_agen`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_genera...' at line 5 in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-25-000145_CreateTableAgen.php(29): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableAgen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-25 00:05:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_agen`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_genera...' at line 5 in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-25-000145_CreateTableAgen.php(29): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableAgen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

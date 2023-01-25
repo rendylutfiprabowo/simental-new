@@ -1,0 +1,294 @@
+CRITICAL - 2023-01-24 05:59:15 --> Invalid file: "#.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('#.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('#', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('#')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:12:30 --> Invalid file: "mobc/detail.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mobc/detail.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mobc/detail', [], true)
+ 3 APPPATH\Controllers\Dataagenobc.php(16): view('mobc/detail')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dataagenobc->detail()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dataagenobc))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:37:15 --> Undefined variable $detpel
+in APPPATH\Views\mcaring\edit.php on line 8.
+ 1 APPPATH\Views\mcaring\edit.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detpel', 'APPPATH\\Views\\mcaring\\edit.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mcaring\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mcaring/edit', [], true)
+ 5 APPPATH\Controllers\Datacaring.php(26): view('mcaring/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Datacaring->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datacaring))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 07:00:59 --> Undefined variable $ya
+in APPPATH\Views\mcaring\edit.php on line 11.
+ 1 APPPATH\Views\mcaring\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ya', 'APPPATH\\Views\\mcaring\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\mcaring\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('mcaring/edit', [], true)
+ 5 APPPATH\Controllers\Datacaring.php(26): view('mcaring/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Datacaring->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Datacaring))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 07:08:31 --> Invalid file: "#.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('#.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('#', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('#')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 07:08:34 --> Invalid file: "#.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('#.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('#', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('#')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 15:10:40 --> Invalid file: "#.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('#.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('#', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('#')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 22:55:46 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'simental-new' in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'simental-new', 3306, '', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'simental-new' in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-01-24 22:57:55 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'simental-new' in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'simental-new', 3306, '', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'simental-new' in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1408): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1427): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-01-24 22:58:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-new CHARACTER SET utf8 COLLATE utf8_general_ci' at line 1 in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(230): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Forge->createDatabase('simental-new')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+ERROR - 2023-01-24 23:07:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 PRIMARY KEY(`id_visit`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_gener...' at line 9 in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `v...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `v...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `v...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `v...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-230640_Visit.php(47): CodeIgniter\Database\Forge->createTable('visit')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Visit->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2023-01-24 23:29:12 --> Cannot use empty array elements in arrays
+in APPPATH\Database\Seeds\AkunAdmin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-24 23:29:56 --> Cannot use empty array elements in arrays
+in APPPATH\Database\Seeds\AkunAdmin.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-01-24 23:46:20 --> mysqli_sql_exception: Table 'caring' already exists in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-230457_Agen.php(43): CodeIgniter\Database\Forge->createTable('caring')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Agen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-01-24 23:47:06 --> ErrorException: Undefined variable $DBDriver in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Generators\Views\migration.tpl.php:16
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Generators\Views\migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Common.php(1177): CodeIgniter\View\View->render('CodeIgniter\\Com...', Array, true)
+#4 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\GeneratorTrait.php(270): view('CodeIgniter\\Com...', Array, Array)
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\GeneratorTrait.php(292): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate(Array)
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Generators\SessionMigrationGenerator.php(101): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Mi...', Array, Array, Array)
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\GeneratorTrait.php(302): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Mi...')
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\GeneratorTrait.php(115): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Mi...')
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\GeneratorTrait.php(94): CodeIgniter\Commands\Generators\SessionMigrationGenerator->generateClass(Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Generators\SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute(Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('session:migrati...', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+CRITICAL - 2023-01-24 23:47:06 --> Undefined variable $DBDriver
+in SYSTEMPATH\Commands\Generators\Views\migration.tpl.php on line 16.
+ 1 SYSTEMPATH\Commands\Generators\Views\migration.tpl.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DBDriver', 'SYSTEMPATH\\Commands\\Generators\\Views\\migration.tpl.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('SYSTEMPATH\\Commands\\Generators\\Views\\migration.tpl.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('CodeIgniter\\Commands\\Generators\\Views\\migration.tpl.php', [...], true)
+ 5 SYSTEMPATH\CLI\GeneratorTrait.php(274): view('CodeIgniter\\Commands\\Generators\\Views\\migration.tpl.php', [...], [...])
+ 6 SYSTEMPATH\CLI\GeneratorTrait.php(292): CodeIgniter\Commands\Generators\SessionMigrationGenerator->renderTemplate([...])
+ 7 SYSTEMPATH\Commands\Generators\SessionMigrationGenerator.php(101): CodeIgniter\Commands\Generators\SessionMigrationGenerator->parseTemplate('App\\Database\\Migrations\\CreateCiSessionsTable', [...], [...], [...])
+ 8 SYSTEMPATH\CLI\GeneratorTrait.php(302): CodeIgniter\Commands\Generators\SessionMigrationGenerator->prepare('App\\Database\\Migrations\\CreateCiSessionsTable')
+ 9 SYSTEMPATH\CLI\GeneratorTrait.php(115): CodeIgniter\Commands\Generators\SessionMigrationGenerator->buildContent('App\\Database\\Migrations\\CreateCiSessionsTable')
+10 SYSTEMPATH\CLI\GeneratorTrait.php(94): CodeIgniter\Commands\Generators\SessionMigrationGenerator->generateClass([...])
+11 SYSTEMPATH\Commands\Generators\SessionMigrationGenerator.php(84): CodeIgniter\Commands\Generators\SessionMigrationGenerator->execute([...])
+12 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Generators\SessionMigrationGenerator->run([...])
+13 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('session:migration', [])
+14 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2023-01-24 23:49:17 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-230457_Agen.php(43): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Agen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-24 23:49:42 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-230457_Agen.php(43): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Agen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-01-24 23:58:49 --> mysqli_sql_exception: Unknown table 'db_simental.pelanggan' in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `pel...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `pel...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `pel...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `pel...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-235416_CreateTablePelanggan.php(82): CodeIgniter\Database\Forge->dropTable('pelanggan')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTablePelanggan->down()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-01-24 23:59:21 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-235353_CreateTableAgen.php(43): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableAgen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-01-24 23:59:28 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\simental-new\app\Database\Migrations\2023-01-24-235353_CreateTableAgen.php(43): CodeIgniter\Database\Forge->createTable('agen')
+#5 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateTableAgen->up()
+#6 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\simental-new\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\simental-new\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
